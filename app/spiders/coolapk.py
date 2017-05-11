@@ -53,7 +53,7 @@ class CoolpakSpider(CrawlSpider):
                 item['editor_comment'] = sel.css('.media-intro').xpath('text()').extract_first('').strip('')
                 info = sel.css('.media-info span:nth-child(2)').xpath('text()').extract_first('')
                 item['apk_size'] = info.split(u'，')[0]
-                item['apk_size'] = info.split(u'，')[1].replace(u'\xa0', '')
+                item['download_num'] = info.split(u'，')[1].replace(u'\xa0', '').rtrip(u"次下载")
                 item['star_num'] = sel.css('.media-info span:nth-child(3)').xpath('text()').extract_first('')
                 yield item
             except Exception as e:
