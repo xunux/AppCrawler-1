@@ -1,0 +1,6 @@
+category
+top_category
+name
+package
+appid
+icon

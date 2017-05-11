@@ -1,0 +1,16 @@
+category
+company
+top_category
+introduce
+imprint
+apk_size
+icon
+info
+star_num
+apk_url
+name
+package
+url
+hot
+version
+appid

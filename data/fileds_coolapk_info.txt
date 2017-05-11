@@ -1,0 +1,15 @@
+info
+category
+apk_url
+name
+tags
+url
+package
+introduce
+imprint
+version
+download_num
+apk_size
+editor_comment
+star_num
+icon

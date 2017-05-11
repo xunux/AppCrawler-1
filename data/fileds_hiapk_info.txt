@@ -1,0 +1,14 @@
+category
+info
+apk_url
+name
+package
+url
+is_new
+introduce
+imprint
+hot
+version
+apk_size
+qr_code_url
+star_num

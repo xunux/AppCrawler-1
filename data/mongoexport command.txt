@@ -1,0 +1,13 @@
+mongoexport.exe /d scrapy /c hiapk_app /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_hiapk.txt" /type:csv /o hiapk_app.csv
+mongoexport.exe /d scrapy /c hiapk_info /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_hiapk_info.txt" /type:csv /o hiapk_info.csv
+
+mongoexport.exe /d scrapy /c coolapk /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_coolapk.txt" /type:csv /o coolapk.csv
+mongoexport.exe /d scrapy /c coolapk_info /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_coolapk_info.txt" /type:csv /o coolapk_info.csv
+mongoexport.exe /d scrapy /c coolapk_info_bak /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_coolapk_info.txt" /type:csv /o coolapk_info_bak.csv
+
+mongoexport.exe /d scrapy /c wandoujia /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_wandoujia.txt" /type:csv /o wandoujia.csv
+
+mongoexport.exe /d scrapy /c xiaomi_app /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_xiaomi.txt" /type:csv /o xiaomi_app.csv
+mongoexport.exe /d scrapy /c xiaomi_info /fieldFile "D:\Program Files\MongoDB\Server\3.2\bin\fileds_xiaomi_info.txt" /type:csv /o xiaomi_info.csv
+
+mongoexport.exe /d scrapy /c coolapk /o coolapk.json

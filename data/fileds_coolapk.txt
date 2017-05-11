@@ -1,0 +1,10 @@
+category
+star_num
+apk_url
+name
+package
+url
+version
+apk_size
+editor_comment
+icon
