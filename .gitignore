@@ -51,3 +51,4 @@ app/jobs/*
 .Spotlight-V100
 .Trashes
  
+.idea/
