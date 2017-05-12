@@ -8,4 +8,5 @@
 
 class AppPipeline(object):
     def process_item(self, item, spider):
+        # print item.__class__.__name__
         return item

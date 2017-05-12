@@ -17,12 +17,16 @@ NEWSPIDER_MODULE = 'app.spiders'
 #USER_AGENT = 'app (+http://www.yourdomain.com)'
 
 ITEM_PIPELINES = {
+  # 'app.pipelines.AppPipeline':1,
   'scrapy_mongodb.MongoDBPipeline' : 100,
 }
 
+# 参考 https://github.com/sebdah/scrapy-mongodb/blob/master/README.md
 MONGODB_URI = 'mongodb://127.0.0.1:27017'
 MONGODB_DATABASE = 'scrapy'
-MONGODB_COLLECTION = 'xiaomi_info'
+MONGODB_COLLECTION = 'item'
+# MONGODB_UNIQUE_KEY = 'url'
+MONGODB_ADD_TIMESTAMP = True
 
 EXTENSIONS = {'scrapy.contrib.feedexport.FeedExporter': None}
 
