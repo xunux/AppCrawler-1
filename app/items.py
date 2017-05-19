@@ -117,3 +117,44 @@ class XiaomiAppItem(scrapy.Item):
     introduce = scrapy.Field()
     imprint = scrapy.Field()
     info = scrapy.Field()
+
+
+class HighIpItem(scrapy.Item):
+    url = scrapy.Field()
+    ip = scrapy.Field()
+    longitude = scrapy.Field()
+    latitude = scrapy.Field()
+    address = scrapy.Field()
+    info = scrapy.Field()
+    loc_time = scrapy.Field()
+
+
+class ManhuaItem(scrapy.Item):
+    name = scrapy.Field()
+    icon = scrapy.Field()
+    url = scrapy.Field()
+    category = scrapy.Field()
+    tags = scrapy.Field()
+    company = scrapy.Field()
+    author = scrapy.Field()
+    chapters = scrapy.Field()
+    download_num = scrapy.Field()
+    hot = scrapy.Field()
+    love_num = scrapy.Field()
+    comments_num = scrapy.Field()
+    comments = scrapy.Field()
+    editor_comment = scrapy.Field()
+    star_num = scrapy.Field()
+    introduce = scrapy.Field()
+    info = scrapy.Field()
+
+
+class ImageItem(scrapy.Item):
+    url = scrapy.Field()
+    name = scrapy.Field()
+    chapter = scrapy.Field()
+    num = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()
+    image_paths = scrapy.Field()
+

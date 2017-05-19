@@ -24,3 +24,4 @@ thefuck==1.12
 w3lib==1.11.0
 wsgiref==0.1.2
 zope.interface==4.1.2
+pyexecjs

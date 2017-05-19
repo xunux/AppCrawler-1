@@ -16,7 +16,7 @@ class Util(object):
 
     @classmethod
     def get_collection_name(cls, item_name):
-        return cls.camel_to_underline(item_name).rtrip('_item')
+        return cls.camel_to_underline(item_name.replace('Item', ''))
 
     @classmethod
     def camel_to_underline(cls, camel_format_str):

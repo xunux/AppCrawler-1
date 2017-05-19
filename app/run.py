@@ -9,7 +9,7 @@ import logging
 from spiders.hiapk_app import HiapkAppSpider
 from spiders.hiapk import HiapkInfoSpider
 from spiders.coolapk import CoolpakSpider
-from spiders.xiaomiapp import XiaomiAppSpider
+from spiders.manhua_1kkk import Manhua1kkkSpider
 from spiders.coolapk_info import CoolpakInfoSpider
 from twisted.internet import reactor
 from scrapy.crawler import CrawlerRunner
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # runner.signals.connect(spider_closing, signal=signals.spider_closed)
     # runner.crawl(CoolpakSpider)
     # runner.crawl(CoolpakInfoSpider)
-    runner.crawl(XiaomiAppSpider)
+    runner.crawl(Manhua1kkkSpider)
 
     d = runner.join()
     d.addBoth(lambda _: reactor.stop())
