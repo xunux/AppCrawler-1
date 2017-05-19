@@ -11,3 +11,12 @@ ITEM_PIPELINES = {
   'scrapy_mongodb.MongoDBPipeline': 100
 }
 ```
+
+执行爬虫
+```
+scrapy crawl my_spider --logfile=app.log -s JOBDIR=crawls/my_spider -s MONGODB_COLLECTION = 'my_items'
+```
+
+
+mongo参数设置参考 [https://github.com/sebdah/scrapy-mongodb](https://github.com/sebdah/scrapy-mongodb)
+
